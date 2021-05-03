@@ -1,0 +1,157 @@
+@font-face {
+  font-family: CalistoMT;
+  src: url('../../font/Calisto-MT.ttf');
+}
+
+@font-face {
+  font-family: CalistoMT;
+  src: url('../../font/Calisto-MT-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: BrushPosterGrotesk;
+  src: url('../../font/BrushPosterGrotesk.ttf');
+}
+
+.navbar, #mySidenav{
+  font-family: BrushPosterGrotesk;
+  letter-spacing: 1px;
+}
+
+#mainContainer{
+  font-family: CalistoMT;
+}
+
+.logo-img {
+  position: absolute;
+  left: 32%;
+  top: 42%;
+  width: 127px;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.img-sidenav {
+  width: 105%;
+  margin-top: 10%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .textNav {
+  color: #ffffff;
+}
+
+.sidenav .textNav:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav .imgeSidenav {
+ width: 50%; 
+}
+
+.img-thumbnail{
+  padding: 0.1rem;
+  border-radius: 0rem;
+}
+
+.youtube-vdo{
+  height: 180px;
+}
+
+body {
+  background: url('backgroud.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .logo-img {
+    left: 41%;
+  }
+  .youtube-vdo{
+    height: 350px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo-img {
+    left: 42%;
+  }
+  .sidenav {
+    width: 40%;
+  }
+  .img-sidenav {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .logo-img {
+    left: 44%;
+  }
+  .sidenav {
+    width: 30%;
+  }
+  .youtube-vdo{
+    height: 450px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .logo-img {
+    left: 46%;
+  }
+  .sidenav {
+    width: 20%;
+  }
+  .youtube-vdo{
+    height: 550px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .logo-img {
+    left: 47%;
+  }
+  .youtube-vdo{
+    height: 750px;
+  }
+}
